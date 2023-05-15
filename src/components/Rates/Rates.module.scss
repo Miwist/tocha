@@ -1,0 +1,79 @@
+.wrapper {
+    width: 100%;
+    background-color: #ffffff;
+    padding-bottom: 100px;
+  }
+.Rates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     margin-bottom: 100px;
+ h3 {
+    padding-top: 100px;
+    margin-bottom: 16px;
+ }
+ span {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    font-feature-settings: "salt" on, "liga" off;
+    color: #1d2530;
+    margin-bottom: 40px;
+  }
+  .Rates_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  .Rates_items__item {
+    width: 350px;
+    height: 387px;
+    background: #fcfeff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    margin-left: 30px;
+  
+    .Rates_items__item_title {
+      text-align: center;
+      width: 100%;
+      background: rgba(104, 94, 214, 0.05);
+      p {
+        font-weight: 800;
+        line-height: 48px;
+        color: #685ed6;
+      }
+    }
+
+    .Rates_items__item_content {
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100%;
+
+        button {
+            width: 80%;
+        }
+
+    }
+  }}
+}
+
+@media  screen and (max-width: 480px) {
+    .Rates {
+        .Rates_items {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .Rates_items__item  {
+                margin-left: 0;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

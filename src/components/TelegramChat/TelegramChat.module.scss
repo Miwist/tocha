@@ -1,0 +1,42 @@
+.telegram {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+ padding-bottom: 180px;
+  .telegram_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 482px;
+    z-index: 2;
+    h1 {
+      margin-bottom: 24px;
+    }
+    p {
+      margin-bottom: 32px;
+    }
+  }
+  .telegram_img {
+    max-width: 725px;
+    max-height: 583px;
+    z-index: 1;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .telegram {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    .telegram_img {
+      margin-top: 50px;
+    }
+  }
+}

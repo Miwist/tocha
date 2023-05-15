@@ -1,0 +1,75 @@
+.Banner {
+  background: url("../../assets/img/bg_banner.png") no-repeat;
+  max-width: 1110px;
+  width: 100%;
+  height: 288px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+ margin-bottom: 90px;
+  .Banner_text {
+    h4 {
+      color: #fff;
+      margin-bottom: 32px;
+      font-weight: 800;
+      max-width: 450px;
+    }
+    input {
+      padding: 14px 16px;
+      background: #f4f5f7;
+      border-radius: 5px 0px 0px 5px;
+      width: 248px;
+      height: 52px;
+    }
+    button {
+      width: 120px;
+      height: 45px;
+      background: #18191f;
+      border-radius: 0px 5px 5px 0px;
+    }
+    button:hover {
+      background-color: #fff;
+      color: black;
+  
+    }
+    button:active {
+        color: #fff;
+        background: #18E1F7;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+    .Banner {
+        background-image: none;
+        background: #685ED6;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+      
+        img {
+            margin-bottom: 10px 50%;
+        }
+        .Banner_text {
+            h4 {
+                margin-left: 20px;
+            }
+            input {
+                margin-left: 5px;
+                width: 216px;
+            }
+            button {
+                width: 44px;
+            }
+            .Banner_text__form {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding-bottom: 20px;
+              
+            }
+           
+        }
+    }
+}
