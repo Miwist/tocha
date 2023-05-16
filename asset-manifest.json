@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tocha/static/css/main.636b260f.css",
-    "main.js": "/tocha/static/js/main.5e0c5d60.js",
+    "main.css": "/tocha/static/css/main.b452028f.css",
+    "main.js": "/tocha/static/js/main.03272c7d.js",
     "static/media/con-phone-2.png": "/tocha/static/media/con-phone-2.4a5897e654bce7e211ea.png",
     "static/media/Tocha-phone.png": "/tocha/static/media/Tocha-phone.a4e0900afd78b4009c4a.png",
     "static/media/telegram-chat.png": "/tocha/static/media/telegram-chat.a1e189557cf52dac4bae.png",
@@ -9,11 +9,11 @@
     "static/media/con-phone-1.png": "/tocha/static/media/con-phone-1.68f8d0ffeae0a0627d03.png",
     "static/media/Banner_frame.png": "/tocha/static/media/Banner_frame.cdb402282b0d5ba5e2f5.png",
     "index.html": "/tocha/index.html",
-    "main.636b260f.css.map": "/tocha/static/css/main.636b260f.css.map",
-    "main.5e0c5d60.js.map": "/tocha/static/js/main.5e0c5d60.js.map"
+    "main.b452028f.css.map": "/tocha/static/css/main.b452028f.css.map",
+    "main.03272c7d.js.map": "/tocha/static/js/main.03272c7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.636b260f.css",
-    "static/js/main.5e0c5d60.js"
+    "static/css/main.b452028f.css",
+    "static/js/main.03272c7d.js"
   ]
 }
