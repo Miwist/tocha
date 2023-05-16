@@ -1,33 +1,44 @@
 .Reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 100%;
   height: 100%;
   background: url("../../assets/img/apost.png") no-repeat top right 10%;
   h3 {
     margin: 50px 0;
   }
- margin-bottom: 250px;
+  margin-bottom: 150px;
+  .dots {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .dot {
+      display: block;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #fff;
+      border: 1px solid #685ed6;
+      cursor: pointer;
+      margin-left: 5px;
+    }
+
+    .dot:active {
+      background-color: #685ed6;
+    }
+  }
   .Reviews_items {
     display: flex;
     flex-direction: row;
-    max-width: 1200px;
+    align-items: center;
+    max-width: 1400px;
     height: 100%;
     overflow: hidden;
-    .dots {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        .dot {
-          display: block;
-      
-          width: 10px;
-          height: 10px;
-          border-radius: 50%;
-          background: #685ed6;
-          border: 1px solid #685ed6;
-        }
-      }
- 
-   
+
     .Reviews_items__item {
       display: flex;
       flex-direction: column;
@@ -35,9 +46,8 @@
       margin-top: 30px;
       margin-left: 30px;
 
-
       .Reviews_items__item__text {
-        width: 560px;
+        max-width: 600px;
         height: 220px;
         background: #f4f4f4;
         border-radius: 6px;
@@ -47,6 +57,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding: 20px;
         p {
           color: black;
         }
@@ -54,6 +65,7 @@
       .Reviews_items__item__img {
         display: flex;
         flex-direction: row;
+        margin-bottom: 30px;
         .Reviews_items__item__img_name {
           margin-left: 15px;
           display: flex;
@@ -69,33 +81,30 @@
 }
 
 @media screen and (max-width: 480px) {
-    .Reviews {
-        margin-bottom: 50px;
-        .Reviews_items {
-            overflow: auto;
-            flex-direction: column;
-            .Reviews_items__item:nth-child(n+3) {
-                display: none;
-            }
-            .Reviews_items__item {
-                margin: 0;
-                margin-bottom: 10px;
-                .Reviews_items__item__text {
-                
-                    width: 320px;
-                    height: 280px;
-                    padding: 10px;
-                    text-align: center;
-                    p {
-                        font-size: 18px;
-                    }
-                    i {
-                        font-size: 14px;
-                    }
-                }
-              
-            }
+  .Reviews {
+    margin-bottom: 50px;
+    .Reviews_items {
+      overflow: auto;
+      flex-direction: column;
+      .Reviews_items__item:nth-child(n + 3) {
+        display: none;
+      }
+      .Reviews_items__item {
+        margin: 0;
+        margin-bottom: 10px;
+        .Reviews_items__item__text {
+          width: 320px;
+          height: 280px;
+          padding: 10px;
+          text-align: center;
+          p {
+            font-size: 18px;
+          }
+          i {
+            font-size: 14px;
+          }
         }
-
+      }
     }
+  }
 }
