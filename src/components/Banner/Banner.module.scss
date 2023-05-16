@@ -53,14 +53,15 @@
         }
         .Banner_text {
             h4 {
+              font-size: 26px;
                 margin-left: 20px;
             }
             input {
                 margin-left: 5px;
-                width: 216px;
+                width: 156px;
             }
             button {
-                width: 44px;
+                min-width: 44px;
             }
             .Banner_text__form {
                 display: flex;

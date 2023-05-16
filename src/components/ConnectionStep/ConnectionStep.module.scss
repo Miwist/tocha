@@ -79,10 +79,13 @@
     .connection_steps {
       flex-direction: column;
       align-items: center;
-
+      .connection_steps__step {
+        margin-bottom: 50px;
+      }
       .connection_steps__step:nth-child(2),
       .connection_steps__step:nth-child(3) {
         margin: 0;
+        margin-bottom: 50px;
       }
     }
   }
